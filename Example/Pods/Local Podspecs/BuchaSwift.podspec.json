@@ -1,0 +1,22 @@
+{
+  "name": "BuchaSwift",
+  "version": "0.1.0",
+  "summary": "A short description of BuchaSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/truebucha/BuchaSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "truebucha": "truebucha@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/truebucha/BuchaSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BuchaSwift/Classes/**/*"
+}

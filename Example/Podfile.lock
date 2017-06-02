@@ -1,0 +1,22 @@
+PODS:
+  - BuchaSwift (0.1.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - BuchaSwift (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  BuchaSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BuchaSwift: 9567e048de01c00b340bd7a5e5efd372cd85f7e5
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: 903fd9a55592a151e6fea1789cf395350349543b
+
+COCOAPODS: 1.2.1
