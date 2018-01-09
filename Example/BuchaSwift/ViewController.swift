@@ -7,12 +7,15 @@
 //
 
 import UIKit
-import BuchaSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let example = Example()
+        example.run()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,10 +23,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    func example()  {
-        let example = Example()
-        example.complite {}
-    }
+
 }
 

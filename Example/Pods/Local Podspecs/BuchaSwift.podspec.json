@@ -1,8 +1,8 @@
 {
   "name": "BuchaSwift",
-  "version": "0.1.0",
-  "summary": "A short description of BuchaSwift.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.2",
+  "summary": "Cross projects kit for Swift",
+  "description": "Contains base typealiases to preserve same completion types across different projects\nContains localization shortcut approach",
   "homepage": "https://github.com/truebucha/BuchaSwift",
   "license": {
     "type": "MIT",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/truebucha/BuchaSwift.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
+  "social_media_url": "https://twitter.com/truebucha",
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.0",
+    "osx": "10.11"
   },
   "source_files": "BuchaSwift/Classes/**/*"
 }

@@ -5,11 +5,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BuchaSwift'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Cross projects kit for Swift'
 
   s.description      = <<-DESC
   Contains base typealiases to preserve same completion types across different projects
+  Contains localization shortcut approach.
+  Swift 4.0
                        DESC
 
   s.homepage         = 'https://github.com/truebucha/BuchaSwift'
@@ -20,6 +22,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/truebucha'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.11'
 
   s.source_files = 'BuchaSwift/Classes/**/*'
 
