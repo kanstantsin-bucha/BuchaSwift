@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BuchaSwift'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Cross projects kit for Swift'
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/truebucha'
 
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.11'
+  s.osx.deployment_target = '10.10'
 
   s.source_files = 'BuchaSwift/Classes/**/*'
 

@@ -1,5 +1,5 @@
 PODS:
-  - BuchaSwift (1.0.2)
+  - BuchaSwift (1.0.3)
 
 DEPENDENCIES:
   - BuchaSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BuchaSwift: f8753a12fa8f3015376f1c2fc31dddfc2837dc46
+  BuchaSwift: 5d76c063394b26e7381337c6bc8025bbafd7d0d9
 
-PODFILE CHECKSUM: a404bcd6d28582ede008e05317b79f37bad44437
+PODFILE CHECKSUM: 7fbfe3f0a6953ff9ea1c372cdb7df2059ffd6c60
 
 COCOAPODS: 1.3.1
