@@ -27,7 +27,12 @@ class Example {
         completion(nil)
     }
     
-    func requesSomeData(completion: DataCompletion<String, Error>) {
+    func requesSomeData(completion: DataCompletion<String>) {
+        
+        completion("Done")
+    }
+    
+    func requesSomeData(completion: DataErrorCompletion<String, Error>) {
         
         completion("Done", nil)
     }

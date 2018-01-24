@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BuchaSwift'
-  s.version          = '1.0.3'
+  s.version          = '1.1.0'
   s.summary          = 'Cross projects kit for Swift'
 
   s.description      = <<-DESC
