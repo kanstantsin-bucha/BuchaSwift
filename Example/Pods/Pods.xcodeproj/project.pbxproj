@@ -7,293 +7,323 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243FDCB8590983E62A5256ED26C96DE7 /* BuchaSwift-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B5F39145FD28DD3B98A233CFE32BEE /* BuchaSwift-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		438AC379B0CB45DAEE0733A6EDA957E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */; };
-		531CF63B715FA3621D0739BD84C9D873 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
-		570C81D0FC3AEA80B724D67BBD886CFA /* BuchaSwift-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B97DF22B133F97CB72350C1F37C629 /* BuchaSwift-iOS-dummy.m */; };
-		62209974182816A7EEE2D52257D665D3 /* Pods-BuchaSwift_Mac_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16318C940DC0DF2C889737715457CF32 /* Pods-BuchaSwift_Mac_Example-dummy.m */; };
-		6459A5E81624EBE3AFE2070CC88381EB /* Pods-BuchaSwift_Mac_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB85C2C2E782BD37518F5E6B491EC030 /* Pods-BuchaSwift_Mac_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E010D2E1640B2DC1389D6FC92DA9A74 /* BuchaSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6958015C6173083AA1D4F3D247E9C /* BuchaSwift.swift */; };
-		8F6D7678B0631D76E5D7AEF089568F9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
-		91C4BD861B208105052B82FD21A0756F /* BuchaSwift-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA1AFE40023EE812F7C65760F8DFA06 /* BuchaSwift-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		973524BE4367CF15A2809AD6A5D85C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */; };
-		A550877BEB3DFF14CB78005F98CA411F /* BuchaSwift-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A23936F3B39EB8A736969EE7CD334D /* BuchaSwift-macOS-dummy.m */; };
-		B745708F4598A985D49990B81CA1AC6C /* BuchaSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6958015C6173083AA1D4F3D247E9C /* BuchaSwift.swift */; };
-		BD327234E4D053BC4118713D6C5DC8C7 /* Pods-BuchaSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E51EF583AA596EADAB1C9C6A1C3416D0 /* Pods-BuchaSwift_Example-dummy.m */; };
-		C70F808E2D9EB4BDDD687943FE45BD6E /* Pods-BuchaSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D631DB77BCCE7548C8C7B804D867471 /* Pods-BuchaSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0938EBD122519238D0318F87475250CB /* BuchaSwift-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A29B00A2AC0431E8AEBED31CC54001 /* BuchaSwift-macOS-dummy.m */; };
+		0D4F5F3D315231F1CF25C3E0777556A3 /* Pods-BuchaSwift_Mac_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80CAE9C762E44BC94ADAA26E9AD0118 /* Pods-BuchaSwift_Mac_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FD8C2BB2C9B7451DAD41D356608DEE6 /* BuchaSwift-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C707D1433B7B8D2B162AA88C6C0C30F9 /* BuchaSwift-iOS-dummy.m */; };
+		1A41EE1E13A721C46FC0EF1F72615CD9 /* Pods-BuchaSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC557929B9A424EE6F6AB477B894D3E5 /* Pods-BuchaSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2968A1C849271D9BFC60161EF54F90E1 /* Pods-BuchaSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC724300C8ECACD35CEE84A98DEE921F /* Pods-BuchaSwift_Example-dummy.m */; };
+		308FC3A2FF9F676F04962B51325F1DB3 /* BuchaSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ACA03653FC59FAC078958F29B1D816 /* BuchaSwift.swift */; };
+		35C855EDCD1D9CF93AC1573ACAB28A4F /* Pods-BuchaSwift_Mac_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A80F7C96E92ED201238CAE793A83F4 /* Pods-BuchaSwift_Mac_Example-dummy.m */; };
+		4B050D67F0465C05AEADF497739AC6C3 /* BuchaSwift-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5BA9DB0DDED2FACAC06193FEB2F5B77 /* BuchaSwift-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580946A17BC8D7423B3CD25BBDCD6A8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */; };
+		5A8027D3DDDF503383B8728F6B80AAB3 /* BuchaSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ACA03653FC59FAC078958F29B1D816 /* BuchaSwift.swift */; };
+		6B6BF5A44422F795D0176A380E8A1D96 /* BuchaSwift-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B6798AD7012F84A72D00C5BB795403 /* BuchaSwift-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B306EED6713E1498CC36125A37BBC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ECF55FA2ABD29F59ADD99662882970 /* Foundation.framework */; };
+		B6251D742767B417543B4EABF93A3F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ECF55FA2ABD29F59ADD99662882970 /* Foundation.framework */; };
+		C657BD5DC64E2085BC27762EE8ADA10A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		691CA37E4A29D14B48DA028640CFD5CE /* PBXContainerItemProxy */ = {
+		05F216A4051D27E4689C8A5C6E473AB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3196B89E1263A681220C5B84184BAC87;
-			remoteInfo = "BuchaSwift-macOS";
-		};
-		8728985E07FC42EB96D08E6780626457 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6056BA7600BDA3918BD7E69826D043C1;
+			remoteGlobalIDString = E5E3A41684247E80ACE67C83DE42EFDD;
 			remoteInfo = "BuchaSwift-iOS";
+		};
+		F6B77C288A2516C9835983995F178E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DA5147922F0ECDFE4C1E99E73081C5;
+			remoteInfo = "BuchaSwift-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01547DDEB76738999625F91FBCDCEABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05C40FAB360504FE05C786085DC37158 /* BuchaSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BuchaSwift.framework; path = "BuchaSwift-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		09155F71085941CF6A475BEDDA9D193E /* Pods-BuchaSwift_Mac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Mac_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0E0BC704C2EFE53CA37D292C3BC20814 /* Pods-BuchaSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuchaSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		16318C940DC0DF2C889737715457CF32 /* Pods-BuchaSwift_Mac_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuchaSwift_Mac_Example-dummy.m"; sourceTree = "<group>"; };
-		18D814D3EA71AEA34125A5AFE59BB22D /* Pods-BuchaSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuchaSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1938B4B9107F4FF1F4E92D9FC56666E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19D93DF61BB449D8144BC09F30593849 /* BuchaSwift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "BuchaSwift-iOS.modulemap"; sourceTree = "<group>"; };
-		1D631DB77BCCE7548C8C7B804D867471 /* Pods-BuchaSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuchaSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		20DD0A79C4A7D88F2792B309F3CF4AAD /* Pods-BuchaSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		42E468959E27EC9555B7DBA298A3435F /* BuchaSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BuchaSwift.framework; path = "BuchaSwift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		432BA591BBF6F5A0D009078737B5AAC0 /* BuchaSwift-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BuchaSwift-macOS-prefix.pch"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-prefix.pch"; sourceTree = "<group>"; };
-		4815967FFC45CAECFB2D7BE6EC49387F /* BuchaSwift-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "BuchaSwift-macOS.modulemap"; path = "../BuchaSwift-macOS/BuchaSwift-macOS.modulemap"; sourceTree = "<group>"; };
-		4AFA269013720A788DC1DE91564626D0 /* Pods-BuchaSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuchaSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		51B5F39145FD28DD3B98A233CFE32BEE /* BuchaSwift-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BuchaSwift-macOS-umbrella.h"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-umbrella.h"; sourceTree = "<group>"; };
-		52619B7F9944B64A97B6B9A04829EF60 /* Pods-BuchaSwift_Mac_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuchaSwift_Mac_Example-resources.sh"; sourceTree = "<group>"; };
-		55B6958015C6173083AA1D4F3D247E9C /* BuchaSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuchaSwift.swift; path = BuchaSwift/Classes/BuchaSwift.swift; sourceTree = "<group>"; };
-		67B97DF22B133F97CB72350C1F37C629 /* BuchaSwift-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BuchaSwift-iOS-dummy.m"; sourceTree = "<group>"; };
-		702C3830B872D1C46EC3E27A212A6119 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../BuchaSwift-macOS/Info.plist"; sourceTree = "<group>"; };
-		7325742CFCC1828FD4A2037BB1CBA8BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D3FC952B3ECB08108442C898BE21CDE /* BuchaSwift-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuchaSwift-iOS-prefix.pch"; sourceTree = "<group>"; };
-		7E7BF6DD507BB1C9774E9237FFFC573B /* BuchaSwift-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "BuchaSwift-macOS.xcconfig"; path = "../BuchaSwift-macOS/BuchaSwift-macOS.xcconfig"; sourceTree = "<group>"; };
-		7EC266527DCB70D3A485E7D90BA5E6D2 /* Pods_BuchaSwift_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuchaSwift_Mac_Example.framework; path = "Pods-BuchaSwift_Mac_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84D422D9BDB53891238B68658F061576 /* Pods-BuchaSwift_Mac_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuchaSwift_Mac_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CA1AFE40023EE812F7C65760F8DFA06 /* BuchaSwift-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuchaSwift-iOS-umbrella.h"; sourceTree = "<group>"; };
-		9164F823CE5F92D58E76696B530F6080 /* Pods-BuchaSwift_Mac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Mac_Example.release.xcconfig"; sourceTree = "<group>"; };
-		939296B76575A5175E3C53F5A5AA1F15 /* BuchaSwift-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BuchaSwift-iOS.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		960FB65DA678A5F5ACD034B419817311 /* Pods-BuchaSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BuchaSwift_Example.modulemap"; sourceTree = "<group>"; };
-		B682EC05EB7B906D05F7B940A9E80A42 /* Pods-BuchaSwift_Mac_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BuchaSwift_Mac_Example.modulemap"; sourceTree = "<group>"; };
-		B83CBBFFB191D52107A745346C8C0362 /* Pods-BuchaSwift_Mac_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuchaSwift_Mac_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB80236EABCE801B88A6E6A2154BB5F9 /* Pods-BuchaSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuchaSwift_Example-resources.sh"; sourceTree = "<group>"; };
-		BB85C2C2E782BD37518F5E6B491EC030 /* Pods-BuchaSwift_Mac_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuchaSwift_Mac_Example-umbrella.h"; sourceTree = "<group>"; };
-		C034EE78EA84716D6046C2E0E3C865DF /* Pods_BuchaSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuchaSwift_Example.framework; path = "Pods-BuchaSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A5C665DF3CBC3308AA6BD90695765E /* Pods-BuchaSwift_Mac_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuchaSwift_Mac_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		DB399F4F54A60D86DE8E2863911EEA3E /* Pods-BuchaSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0A23936F3B39EB8A736969EE7CD334D /* BuchaSwift-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BuchaSwift-macOS-dummy.m"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-dummy.m"; sourceTree = "<group>"; };
-		E51EF583AA596EADAB1C9C6A1C3416D0 /* Pods-BuchaSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuchaSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		02440BAFD77E90B7E9868D93C6A4A144 /* Pods-BuchaSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		09B6798AD7012F84A72D00C5BB795403 /* BuchaSwift-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BuchaSwift-macOS-umbrella.h"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-umbrella.h"; sourceTree = "<group>"; };
+		0D9FE8CA22B2EA813FEBF3EAC49837B6 /* Pods-BuchaSwift_Mac_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuchaSwift_Mac_Example-Info.plist"; sourceTree = "<group>"; };
+		20ECF55FA2ABD29F59ADD99662882970 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		27FFDBF3121D6218444A8A3EDCEA6982 /* BuchaSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BuchaSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F3C29500D28684B77105F344B1184DF /* Pods-BuchaSwift_Mac_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuchaSwift_Mac_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		38D76ED46B6B902DF67710A37CC07AC1 /* Pods-BuchaSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuchaSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EE4E265E1AE274B8B633F250E1BC92E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3FDA929DB05B965CA07176C4AB8ECBD8 /* Pods_BuchaSwift_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuchaSwift_Mac_Example.framework; path = "Pods-BuchaSwift_Mac_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE16FAB23D2B54D558DF5C3B0C3DD55 /* BuchaSwift-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BuchaSwift-iOS.xcconfig"; sourceTree = "<group>"; };
+		43C3EBB9E9C62121C6B9E13B06B8EE3C /* BuchaSwift-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "BuchaSwift-macOS-Info.plist"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-Info.plist"; sourceTree = "<group>"; };
+		4708B4356CF1801B3282C1C0FBB611AC /* Pods-BuchaSwift_Mac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Mac_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F52B2DB7B6E7D2C0E270FF33A196E11 /* BuchaSwift-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuchaSwift-iOS-prefix.pch"; sourceTree = "<group>"; };
+		5552965A1D9579F77FCD086F2E2F3833 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6D05C9DF59F982A589CA83F674114E3B /* BuchaSwift-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "BuchaSwift-macOS.modulemap"; path = "../BuchaSwift-macOS/BuchaSwift-macOS.modulemap"; sourceTree = "<group>"; };
+		72A80F7C96E92ED201238CAE793A83F4 /* Pods-BuchaSwift_Mac_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuchaSwift_Mac_Example-dummy.m"; sourceTree = "<group>"; };
+		76A68DC095791898519EAF065B37FD68 /* Pods-BuchaSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuchaSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E78CC7F7296308EDA043B99A544CBB1 /* Pods-BuchaSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuchaSwift_Example.modulemap"; sourceTree = "<group>"; };
+		7F8FC024CF11D0B976D61FCE4EBDFEC5 /* Pods_BuchaSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuchaSwift_Example.framework; path = "Pods-BuchaSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A92634F23CE4CE3162D4EB156F78113 /* BuchaSwift-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BuchaSwift-macOS-prefix.pch"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-prefix.pch"; sourceTree = "<group>"; };
+		92A327B8EBA41132B0A6A28A25152B8B /* Pods-BuchaSwift_Mac_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuchaSwift_Mac_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A25B7E7E7721D3F6EFC02C53BC3F4C /* Pods-BuchaSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuchaSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		A58366C5B4D4B18E5B1E588A9AA76998 /* BuchaSwift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "BuchaSwift-iOS.modulemap"; sourceTree = "<group>"; };
+		A6AD74600DD8A505C4FE1DC17B1096FF /* Pods-BuchaSwift_Mac_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuchaSwift_Mac_Example.modulemap"; sourceTree = "<group>"; };
+		A80CAE9C762E44BC94ADAA26E9AD0118 /* Pods-BuchaSwift_Mac_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuchaSwift_Mac_Example-umbrella.h"; sourceTree = "<group>"; };
+		A99627605B5D3B87148905DCAFBB096C /* BuchaSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BuchaSwift.framework; path = "BuchaSwift-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BBEB3EB71C7D584DBB17E0EF01E3E6 /* Pods-BuchaSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A29B00A2AC0431E8AEBED31CC54001 /* BuchaSwift-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BuchaSwift-macOS-dummy.m"; path = "../BuchaSwift-macOS/BuchaSwift-macOS-dummy.m"; sourceTree = "<group>"; };
+		B5BA9DB0DDED2FACAC06193FEB2F5B77 /* BuchaSwift-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuchaSwift-iOS-umbrella.h"; sourceTree = "<group>"; };
+		BCF5ADF72697B6E0E0EE08EC1D4D889A /* Pods-BuchaSwift_Mac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuchaSwift_Mac_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C3ACA03653FC59FAC078958F29B1D816 /* BuchaSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuchaSwift.swift; path = BuchaSwift/Classes/BuchaSwift.swift; sourceTree = "<group>"; };
+		C707D1433B7B8D2B162AA88C6C0C30F9 /* BuchaSwift-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BuchaSwift-iOS-dummy.m"; sourceTree = "<group>"; };
+		DC724300C8ECACD35CEE84A98DEE921F /* Pods-BuchaSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuchaSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		DE4E687432766E9280C638A856060CBC /* BuchaSwift-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BuchaSwift-iOS-Info.plist"; sourceTree = "<group>"; };
+		E1215E812E1DAA9380A2A470DFB8B1FA /* Pods-BuchaSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuchaSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC557929B9A424EE6F6AB477B894D3E5 /* Pods-BuchaSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuchaSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		EE989F61ADDACACB6DBE062B4D899C0F /* Pods-BuchaSwift_Mac_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuchaSwift_Mac_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F354B14D8EBEB9D5883710202F801551 /* BuchaSwift-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "BuchaSwift-macOS.xcconfig"; path = "../BuchaSwift-macOS/BuchaSwift-macOS.xcconfig"; sourceTree = "<group>"; };
+		F3ED6EFA387327E1591C6B998F87E8EC /* BuchaSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BuchaSwift.framework; path = "BuchaSwift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D062323B8EC651FF8117470547928CD /* Frameworks */ = {
+		969B0C1183A4B91501C6A0D7DC5BAD06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				531CF63B715FA3621D0739BD84C9D873 /* Cocoa.framework in Frameworks */,
+				B6251D742767B417543B4EABF93A3F3D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DE706287917C2A91C201A693D52E5CC /* Frameworks */ = {
+		9AF2EC93AE6A8D1D178850877075E2B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973524BE4367CF15A2809AD6A5D85C13 /* Foundation.framework in Frameworks */,
+				580946A17BC8D7423B3CD25BBDCD6A8C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75B0C5B422095C3B90BCD72CD2599AC6 /* Frameworks */ = {
+		BDEDCE047142604FCBFE57293800F04A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6D7678B0631D76E5D7AEF089568F9C /* Cocoa.framework in Frameworks */,
+				C657BD5DC64E2085BC27762EE8ADA10A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3D343E859DACB013BE96FDB669476F5 /* Frameworks */ = {
+		CC24C1558F2E5B80C5C2C8D41E69DE9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438AC379B0CB45DAEE0733A6EDA957E8 /* Foundation.framework in Frameworks */,
+				9B306EED6713E1498CC36125A37BBC25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A6A1354A5B4E5BAD7998D8F893B34E4 /* Targets Support Files */ = {
+		0167A388B609F30C59CF480E0F3B633C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				558B958808388778F99177474210A035 /* Pods-BuchaSwift_Example */,
-				CB2F1C55FDD1FD7EB3097AE9D29897BD /* Pods-BuchaSwift_Mac_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2EDFAB15A7E74F864EB353FCB5A57006 /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8C918DD0468B798DBE7EEDD4C9D4170B /* iOS */,
-				2EDFAB15A7E74F864EB353FCB5A57006 /* OS X */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		404D67134F0D14930D2610567B8AB479 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5D92E370D921C63C714265BE8FFEF48F /* BuchaSwift */,
+				94C4285A51C95812B6E1BF8D26D84507 /* BuchaSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		50E42FF25AF1308BD1D68616337C8AF9 /* Products */ = {
+		2528B5B9C71AF6F8DD563907E939F492 /* Pods-BuchaSwift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				42E468959E27EC9555B7DBA298A3435F /* BuchaSwift.framework */,
-				05C40FAB360504FE05C786085DC37158 /* BuchaSwift.framework */,
-				C034EE78EA84716D6046C2E0E3C865DF /* Pods_BuchaSwift_Example.framework */,
-				7EC266527DCB70D3A485E7D90BA5E6D2 /* Pods_BuchaSwift_Mac_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		558B958808388778F99177474210A035 /* Pods-BuchaSwift_Example */ = {
-			isa = PBXGroup;
-			children = (
-				7325742CFCC1828FD4A2037BB1CBA8BA /* Info.plist */,
-				960FB65DA678A5F5ACD034B419817311 /* Pods-BuchaSwift_Example.modulemap */,
-				0E0BC704C2EFE53CA37D292C3BC20814 /* Pods-BuchaSwift_Example-acknowledgements.markdown */,
-				18D814D3EA71AEA34125A5AFE59BB22D /* Pods-BuchaSwift_Example-acknowledgements.plist */,
-				E51EF583AA596EADAB1C9C6A1C3416D0 /* Pods-BuchaSwift_Example-dummy.m */,
-				4AFA269013720A788DC1DE91564626D0 /* Pods-BuchaSwift_Example-frameworks.sh */,
-				BB80236EABCE801B88A6E6A2154BB5F9 /* Pods-BuchaSwift_Example-resources.sh */,
-				1D631DB77BCCE7548C8C7B804D867471 /* Pods-BuchaSwift_Example-umbrella.h */,
-				DB399F4F54A60D86DE8E2863911EEA3E /* Pods-BuchaSwift_Example.debug.xcconfig */,
-				20DD0A79C4A7D88F2792B309F3CF4AAD /* Pods-BuchaSwift_Example.release.xcconfig */,
+				7E78CC7F7296308EDA043B99A544CBB1 /* Pods-BuchaSwift_Example.modulemap */,
+				38D76ED46B6B902DF67710A37CC07AC1 /* Pods-BuchaSwift_Example-acknowledgements.markdown */,
+				76A68DC095791898519EAF065B37FD68 /* Pods-BuchaSwift_Example-acknowledgements.plist */,
+				DC724300C8ECACD35CEE84A98DEE921F /* Pods-BuchaSwift_Example-dummy.m */,
+				E1215E812E1DAA9380A2A470DFB8B1FA /* Pods-BuchaSwift_Example-frameworks.sh */,
+				A4A25B7E7E7721D3F6EFC02C53BC3F4C /* Pods-BuchaSwift_Example-Info.plist */,
+				EC557929B9A424EE6F6AB477B894D3E5 /* Pods-BuchaSwift_Example-umbrella.h */,
+				B2BBEB3EB71C7D584DBB17E0EF01E3E6 /* Pods-BuchaSwift_Example.debug.xcconfig */,
+				02440BAFD77E90B7E9868D93C6A4A144 /* Pods-BuchaSwift_Example.release.xcconfig */,
 			);
 			name = "Pods-BuchaSwift_Example";
 			path = "Target Support Files/Pods-BuchaSwift_Example";
 			sourceTree = "<group>";
 		};
-		5D92E370D921C63C714265BE8FFEF48F /* BuchaSwift */ = {
+		3F8A24B87B4D62BA127BA8D3FE734D3E /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				55B6958015C6173083AA1D4F3D247E9C /* BuchaSwift.swift */,
-				9E6E54924CEDD68890D7E7A6CABC9CE9 /* Support Files */,
+				30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */,
 			);
-			name = BuchaSwift;
-			path = ../..;
+			name = "OS X";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				404D67134F0D14930D2610567B8AB479 /* Development Pods */,
-				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
-				50E42FF25AF1308BD1D68616337C8AF9 /* Products */,
-				0A6A1354A5B4E5BAD7998D8F893B34E4 /* Targets Support Files */,
+				686A28E008AC1D6637E86DE4D6AA09F2 /* iOS */,
+				3F8A24B87B4D62BA127BA8D3FE734D3E /* OS X */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8C918DD0468B798DBE7EEDD4C9D4170B /* iOS */ = {
+		67516AC6D2B8FBE1FF47D7E25727EEA0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9E6E54924CEDD68890D7E7A6CABC9CE9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19D93DF61BB449D8144BC09F30593849 /* BuchaSwift-iOS.modulemap */,
-				939296B76575A5175E3C53F5A5AA1F15 /* BuchaSwift-iOS.xcconfig */,
-				67B97DF22B133F97CB72350C1F37C629 /* BuchaSwift-iOS-dummy.m */,
-				7D3FC952B3ECB08108442C898BE21CDE /* BuchaSwift-iOS-prefix.pch */,
-				8CA1AFE40023EE812F7C65760F8DFA06 /* BuchaSwift-iOS-umbrella.h */,
-				4815967FFC45CAECFB2D7BE6EC49387F /* BuchaSwift-macOS.modulemap */,
-				7E7BF6DD507BB1C9774E9237FFFC573B /* BuchaSwift-macOS.xcconfig */,
-				E0A23936F3B39EB8A736969EE7CD334D /* BuchaSwift-macOS-dummy.m */,
-				432BA591BBF6F5A0D009078737B5AAC0 /* BuchaSwift-macOS-prefix.pch */,
-				51B5F39145FD28DD3B98A233CFE32BEE /* BuchaSwift-macOS-umbrella.h */,
-				702C3830B872D1C46EC3E27A212A6119 /* Info.plist */,
-				1938B4B9107F4FF1F4E92D9FC56666E5 /* Info.plist */,
+				A58366C5B4D4B18E5B1E588A9AA76998 /* BuchaSwift-iOS.modulemap */,
+				3FE16FAB23D2B54D558DF5C3B0C3DD55 /* BuchaSwift-iOS.xcconfig */,
+				C707D1433B7B8D2B162AA88C6C0C30F9 /* BuchaSwift-iOS-dummy.m */,
+				DE4E687432766E9280C638A856060CBC /* BuchaSwift-iOS-Info.plist */,
+				4F52B2DB7B6E7D2C0E270FF33A196E11 /* BuchaSwift-iOS-prefix.pch */,
+				B5BA9DB0DDED2FACAC06193FEB2F5B77 /* BuchaSwift-iOS-umbrella.h */,
+				6D05C9DF59F982A589CA83F674114E3B /* BuchaSwift-macOS.modulemap */,
+				F354B14D8EBEB9D5883710202F801551 /* BuchaSwift-macOS.xcconfig */,
+				B4A29B00A2AC0431E8AEBED31CC54001 /* BuchaSwift-macOS-dummy.m */,
+				43C3EBB9E9C62121C6B9E13B06B8EE3C /* BuchaSwift-macOS-Info.plist */,
+				8A92634F23CE4CE3162D4EB156F78113 /* BuchaSwift-macOS-prefix.pch */,
+				09B6798AD7012F84A72D00C5BB795403 /* BuchaSwift-macOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BuchaSwift-iOS";
 			sourceTree = "<group>";
 		};
-		CB2F1C55FDD1FD7EB3097AE9D29897BD /* Pods-BuchaSwift_Mac_Example */ = {
+		686A28E008AC1D6637E86DE4D6AA09F2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				01547DDEB76738999625F91FBCDCEABF /* Info.plist */,
-				B682EC05EB7B906D05F7B940A9E80A42 /* Pods-BuchaSwift_Mac_Example.modulemap */,
-				B83CBBFFB191D52107A745346C8C0362 /* Pods-BuchaSwift_Mac_Example-acknowledgements.markdown */,
-				84D422D9BDB53891238B68658F061576 /* Pods-BuchaSwift_Mac_Example-acknowledgements.plist */,
-				16318C940DC0DF2C889737715457CF32 /* Pods-BuchaSwift_Mac_Example-dummy.m */,
-				C0A5C665DF3CBC3308AA6BD90695765E /* Pods-BuchaSwift_Mac_Example-frameworks.sh */,
-				52619B7F9944B64A97B6B9A04829EF60 /* Pods-BuchaSwift_Mac_Example-resources.sh */,
-				BB85C2C2E782BD37518F5E6B491EC030 /* Pods-BuchaSwift_Mac_Example-umbrella.h */,
-				09155F71085941CF6A475BEDDA9D193E /* Pods-BuchaSwift_Mac_Example.debug.xcconfig */,
-				9164F823CE5F92D58E76696B530F6080 /* Pods-BuchaSwift_Mac_Example.release.xcconfig */,
+				20ECF55FA2ABD29F59ADD99662882970 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		765BBC10E13973868ED244C2E06CED89 /* Pods-BuchaSwift_Mac_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6AD74600DD8A505C4FE1DC17B1096FF /* Pods-BuchaSwift_Mac_Example.modulemap */,
+				2F3C29500D28684B77105F344B1184DF /* Pods-BuchaSwift_Mac_Example-acknowledgements.markdown */,
+				EE989F61ADDACACB6DBE062B4D899C0F /* Pods-BuchaSwift_Mac_Example-acknowledgements.plist */,
+				72A80F7C96E92ED201238CAE793A83F4 /* Pods-BuchaSwift_Mac_Example-dummy.m */,
+				92A327B8EBA41132B0A6A28A25152B8B /* Pods-BuchaSwift_Mac_Example-frameworks.sh */,
+				0D9FE8CA22B2EA813FEBF3EAC49837B6 /* Pods-BuchaSwift_Mac_Example-Info.plist */,
+				A80CAE9C762E44BC94ADAA26E9AD0118 /* Pods-BuchaSwift_Mac_Example-umbrella.h */,
+				BCF5ADF72697B6E0E0EE08EC1D4D889A /* Pods-BuchaSwift_Mac_Example.debug.xcconfig */,
+				4708B4356CF1801B3282C1C0FBB611AC /* Pods-BuchaSwift_Mac_Example.release.xcconfig */,
 			);
 			name = "Pods-BuchaSwift_Mac_Example";
 			path = "Target Support Files/Pods-BuchaSwift_Mac_Example";
 			sourceTree = "<group>";
 		};
+		8525A85C23472996799129CBE07F117A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2528B5B9C71AF6F8DD563907E939F492 /* Pods-BuchaSwift_Example */,
+				765BBC10E13973868ED244C2E06CED89 /* Pods-BuchaSwift_Mac_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94C4285A51C95812B6E1BF8D26D84507 /* BuchaSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C3ACA03653FC59FAC078958F29B1D816 /* BuchaSwift.swift */,
+				D0326BDD8668EABA354649BE27A6C3CD /* Pod */,
+				67516AC6D2B8FBE1FF47D7E25727EEA0 /* Support Files */,
+			);
+			name = BuchaSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0167A388B609F30C59CF480E0F3B633C /* Development Pods */,
+				4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */,
+				D017308344FC5899CC504D3EDF48F32E /* Products */,
+				8525A85C23472996799129CBE07F117A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D017308344FC5899CC504D3EDF48F32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3ED6EFA387327E1591C6B998F87E8EC /* BuchaSwift.framework */,
+				A99627605B5D3B87148905DCAFBB096C /* BuchaSwift.framework */,
+				7F8FC024CF11D0B976D61FCE4EBDFEC5 /* Pods_BuchaSwift_Example.framework */,
+				3FDA929DB05B965CA07176C4AB8ECBD8 /* Pods_BuchaSwift_Mac_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0326BDD8668EABA354649BE27A6C3CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				27FFDBF3121D6218444A8A3EDCEA6982 /* BuchaSwift.podspec */,
+				5552965A1D9579F77FCD086F2E2F3833 /* LICENSE */,
+				3EE4E265E1AE274B8B633F250E1BC92E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24EC320B5DE26951ED38E2C7818F65FE /* Headers */ = {
+		0E8D98780204C325AB2BB6B3F83DC11E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6459A5E81624EBE3AFE2070CC88381EB /* Pods-BuchaSwift_Mac_Example-umbrella.h in Headers */,
+				1A41EE1E13A721C46FC0EF1F72615CD9 /* Pods-BuchaSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C4891D4CE3F3B4E9954542992DD9B68 /* Headers */ = {
+		7B1439CE79BA4D4BE8113D4CB390F9E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243FDCB8590983E62A5256ED26C96DE7 /* BuchaSwift-macOS-umbrella.h in Headers */,
+				4B050D67F0465C05AEADF497739AC6C3 /* BuchaSwift-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A85566EDF774096B283F54E64DEB6910 /* Headers */ = {
+		98C339ADF087863DC10491D5D48DF0DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70F808E2D9EB4BDDD687943FE45BD6E /* Pods-BuchaSwift_Example-umbrella.h in Headers */,
+				6B6BF5A44422F795D0176A380E8A1D96 /* BuchaSwift-macOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B971BD5877C3BA660D1DB905C26E10 /* Headers */ = {
+		DD1E9576435D25C82E5D321493095067 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91C4BD861B208105052B82FD21A0756F /* BuchaSwift-iOS-umbrella.h in Headers */,
+				0D4F5F3D315231F1CF25C3E0777556A3 /* Pods-BuchaSwift_Mac_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3196B89E1263A681220C5B84184BAC87 /* BuchaSwift-macOS */ = {
+		161167200DA5B9F6B83EE9ACF0F82BDC /* Pods-BuchaSwift_Mac_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 526A8A7C446720856BDB28A10ACAAF96 /* Build configuration list for PBXNativeTarget "BuchaSwift-macOS" */;
+			buildConfigurationList = 8F3F5B87EA46336E8927D86F3FD23E7F /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Mac_Example" */;
 			buildPhases = (
-				5CF2577B8F4C51A683B13AAC5E240DDA /* Sources */,
-				3D062323B8EC651FF8117470547928CD /* Frameworks */,
-				5C4891D4CE3F3B4E9954542992DD9B68 /* Headers */,
+				DD1E9576435D25C82E5D321493095067 /* Headers */,
+				BCB929F2007B095179126995EAFDBC11 /* Sources */,
+				9AF2EC93AE6A8D1D178850877075E2B5 /* Frameworks */,
+				7B810BD9DC6DE8E4D4F14F2FA173CCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF7A6692FA619F6C5458209FBB2727C /* PBXTargetDependency */,
+			);
+			name = "Pods-BuchaSwift_Mac_Example";
+			productName = "Pods-BuchaSwift_Mac_Example";
+			productReference = 3FDA929DB05B965CA07176C4AB8ECBD8 /* Pods_BuchaSwift_Mac_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45DA5147922F0ECDFE4C1E99E73081C5 /* BuchaSwift-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894C38FDEAD5AD440EDBED73AC2A2B77 /* Build configuration list for PBXNativeTarget "BuchaSwift-macOS" */;
+			buildPhases = (
+				98C339ADF087863DC10491D5D48DF0DC /* Headers */,
+				230364335AC70DF1165F99F0C9F3B713 /* Sources */,
+				BDEDCE047142604FCBFE57293800F04A /* Frameworks */,
+				E46638766547A8644BB1DA73A5630B06 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -301,16 +331,36 @@
 			);
 			name = "BuchaSwift-macOS";
 			productName = "BuchaSwift-macOS";
-			productReference = 05C40FAB360504FE05C786085DC37158 /* BuchaSwift.framework */;
+			productReference = A99627605B5D3B87148905DCAFBB096C /* BuchaSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6056BA7600BDA3918BD7E69826D043C1 /* BuchaSwift-iOS */ = {
+		D28AB4C60B78E8F66D77E6AE701BE352 /* Pods-BuchaSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91BE2A4616AA40BC21F5ADB18C97286D /* Build configuration list for PBXNativeTarget "BuchaSwift-iOS" */;
+			buildConfigurationList = DE53CD45DFD0B146448D07E85F4CFB8C /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Example" */;
 			buildPhases = (
-				BEAB70D9C0DFC548EC5FECB21AB1DA88 /* Sources */,
-				A3D343E859DACB013BE96FDB669476F5 /* Frameworks */,
-				F0B971BD5877C3BA660D1DB905C26E10 /* Headers */,
+				0E8D98780204C325AB2BB6B3F83DC11E /* Headers */,
+				C5BE14B2EAD8466A03C4877B86514869 /* Sources */,
+				CC24C1558F2E5B80C5C2C8D41E69DE9E /* Frameworks */,
+				71F88F98BAAC49DD9EA7CB385C73BBD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F9C19DCEC8CB92AA9BA82E115356CA /* PBXTargetDependency */,
+			);
+			name = "Pods-BuchaSwift_Example";
+			productName = "Pods-BuchaSwift_Example";
+			productReference = 7F8FC024CF11D0B976D61FCE4EBDFEC5 /* Pods_BuchaSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5E3A41684247E80ACE67C83DE42EFDD /* BuchaSwift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9447FAA8C0FA48F4D53F78F221F7DB8E /* Build configuration list for PBXNativeTarget "BuchaSwift-iOS" */;
+			buildPhases = (
+				7B1439CE79BA4D4BE8113D4CB390F9E8 /* Headers */,
+				F0525921690058D10876C541378E463D /* Sources */,
+				969B0C1183A4B91501C6A0D7DC5BAD06 /* Frameworks */,
+				659C9FDDFE70C55B33CDB07E99AF51BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -318,187 +368,129 @@
 			);
 			name = "BuchaSwift-iOS";
 			productName = "BuchaSwift-iOS";
-			productReference = 42E468959E27EC9555B7DBA298A3435F /* BuchaSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		840E24876F6181FC3A02CE3ACB825B77 /* Pods-BuchaSwift_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF811775B648E5420AE9DBCB59097B0 /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Example" */;
-			buildPhases = (
-				02EAF916CF61F5CB3CB2585CC65B3690 /* Sources */,
-				6DE706287917C2A91C201A693D52E5CC /* Frameworks */,
-				A85566EDF774096B283F54E64DEB6910 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0014A3462B95F1DA6E2E8BE42D9C604 /* PBXTargetDependency */,
-			);
-			name = "Pods-BuchaSwift_Example";
-			productName = "Pods-BuchaSwift_Example";
-			productReference = C034EE78EA84716D6046C2E0E3C865DF /* Pods_BuchaSwift_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FAB242EE324862597D98041D2C61638C /* Pods-BuchaSwift_Mac_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0CA4DB19087BEEF607303CF18A8ED131 /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Mac_Example" */;
-			buildPhases = (
-				240B87F368F065A14C01A2BBC3174B08 /* Sources */,
-				75B0C5B422095C3B90BCD72CD2599AC6 /* Frameworks */,
-				24EC320B5DE26951ED38E2C7818F65FE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA403DDA8B6F6AFC7AB79B1A740F477F /* PBXTargetDependency */,
-			);
-			name = "Pods-BuchaSwift_Mac_Example";
-			productName = "Pods-BuchaSwift_Mac_Example";
-			productReference = 7EC266527DCB70D3A485E7D90BA5E6D2 /* Pods_BuchaSwift_Mac_Example.framework */;
+			productReference = F3ED6EFA387327E1591C6B998F87E8EC /* BuchaSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 50E42FF25AF1308BD1D68616337C8AF9 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D017308344FC5899CC504D3EDF48F32E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6056BA7600BDA3918BD7E69826D043C1 /* BuchaSwift-iOS */,
-				3196B89E1263A681220C5B84184BAC87 /* BuchaSwift-macOS */,
-				840E24876F6181FC3A02CE3ACB825B77 /* Pods-BuchaSwift_Example */,
-				FAB242EE324862597D98041D2C61638C /* Pods-BuchaSwift_Mac_Example */,
+				E5E3A41684247E80ACE67C83DE42EFDD /* BuchaSwift-iOS */,
+				45DA5147922F0ECDFE4C1E99E73081C5 /* BuchaSwift-macOS */,
+				D28AB4C60B78E8F66D77E6AE701BE352 /* Pods-BuchaSwift_Example */,
+				161167200DA5B9F6B83EE9ACF0F82BDC /* Pods-BuchaSwift_Mac_Example */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		659C9FDDFE70C55B33CDB07E99AF51BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F88F98BAAC49DD9EA7CB385C73BBD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B810BD9DC6DE8E4D4F14F2FA173CCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46638766547A8644BB1DA73A5630B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		02EAF916CF61F5CB3CB2585CC65B3690 /* Sources */ = {
+		230364335AC70DF1165F99F0C9F3B713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD327234E4D053BC4118713D6C5DC8C7 /* Pods-BuchaSwift_Example-dummy.m in Sources */,
+				0938EBD122519238D0318F87475250CB /* BuchaSwift-macOS-dummy.m in Sources */,
+				308FC3A2FF9F676F04962B51325F1DB3 /* BuchaSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		240B87F368F065A14C01A2BBC3174B08 /* Sources */ = {
+		BCB929F2007B095179126995EAFDBC11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62209974182816A7EEE2D52257D665D3 /* Pods-BuchaSwift_Mac_Example-dummy.m in Sources */,
+				35C855EDCD1D9CF93AC1573ACAB28A4F /* Pods-BuchaSwift_Mac_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CF2577B8F4C51A683B13AAC5E240DDA /* Sources */ = {
+		C5BE14B2EAD8466A03C4877B86514869 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A550877BEB3DFF14CB78005F98CA411F /* BuchaSwift-macOS-dummy.m in Sources */,
-				B745708F4598A985D49990B81CA1AC6C /* BuchaSwift.swift in Sources */,
+				2968A1C849271D9BFC60161EF54F90E1 /* Pods-BuchaSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEAB70D9C0DFC548EC5FECB21AB1DA88 /* Sources */ = {
+		F0525921690058D10876C541378E463D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570C81D0FC3AEA80B724D67BBD886CFA /* BuchaSwift-iOS-dummy.m in Sources */,
-				7E010D2E1640B2DC1389D6FC92DA9A74 /* BuchaSwift.swift in Sources */,
+				0FD8C2BB2C9B7451DAD41D356608DEE6 /* BuchaSwift-iOS-dummy.m in Sources */,
+				5A8027D3DDDF503383B8728F6B80AAB3 /* BuchaSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BA403DDA8B6F6AFC7AB79B1A740F477F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BuchaSwift-macOS";
-			target = 3196B89E1263A681220C5B84184BAC87 /* BuchaSwift-macOS */;
-			targetProxy = 691CA37E4A29D14B48DA028640CFD5CE /* PBXContainerItemProxy */;
-		};
-		D0014A3462B95F1DA6E2E8BE42D9C604 /* PBXTargetDependency */ = {
+		10F9C19DCEC8CB92AA9BA82E115356CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BuchaSwift-iOS";
-			target = 6056BA7600BDA3918BD7E69826D043C1 /* BuchaSwift-iOS */;
-			targetProxy = 8728985E07FC42EB96D08E6780626457 /* PBXContainerItemProxy */;
+			target = E5E3A41684247E80ACE67C83DE42EFDD /* BuchaSwift-iOS */;
+			targetProxy = 05F216A4051D27E4689C8A5C6E473AB2 /* PBXContainerItemProxy */;
+		};
+		3AF7A6692FA619F6C5458209FBB2727C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BuchaSwift-macOS";
+			target = 45DA5147922F0ECDFE4C1E99E73081C5 /* BuchaSwift-macOS */;
+			targetProxy = F6B77C288A2516C9835983995F178E77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		334B7465121895DA41F24E7234388C47 /* Release */ = {
+		188A2FFF94A3111092691878253F902D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF5ADF72697B6E0E0EE08EC1D4D889A /* Pods-BuchaSwift_Mac_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		43D16E3578F86D25BEA4CAB0F71047FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E7BF6DD507BB1C9774E9237FFFC573B /* BuchaSwift-macOS.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -510,39 +502,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BuchaSwift-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS.modulemap";
-				PRODUCT_NAME = BuchaSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4B7E0886E1B901F9D6ED3D9010DACB05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09155F71085941CF6A475BEDDA9D193E /* Pods-BuchaSwift_Mac_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Mac_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
@@ -552,21 +512,21 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BuchaSwift_Mac_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6D7A36FECF06B38E5AF0E2C7C994276E /* Release */ = {
+		1D394C6244915D411C00AD6A2DBC2FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E7BF6DD507BB1C9774E9237FFFC573B /* BuchaSwift-macOS.xcconfig */;
+			baseConfigurationReference = F354B14D8EBEB9D5883710202F801551 /* BuchaSwift-macOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,26 +539,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BuchaSwift-macOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = BuchaSwift;
 				PRODUCT_NAME = BuchaSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		920199AB08082F271C5186F5C199D2D4 /* Debug */ = {
+		2A66114CDA18C11D03A6E26E33F3A557 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB399F4F54A60D86DE8E2863911EEA3E /* Pods-BuchaSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = B2BBEB3EB71C7D584DBB17E0EF01E3E6 /* Pods-BuchaSwift_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -608,9 +569,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example.modulemap";
@@ -618,21 +579,88 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BuchaSwift_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9FA7E32E043608530C93869C5A2ECD2A /* Release */ = {
+		4A6F0931C7AC2819D44021FA1F705BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 939296B76575A5175E3C53F5A5AA1F15 /* BuchaSwift-iOS.xcconfig */;
+			baseConfigurationReference = F354B14D8EBEB9D5883710202F801551 /* BuchaSwift-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/BuchaSwift-macOS/BuchaSwift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = BuchaSwift;
+				PRODUCT_NAME = BuchaSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74066F5BFC98B07AB03E3417069B3F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02440BAFD77E90B7E9868D93C6A4A144 /* Pods-BuchaSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86037157943257224F7B74EF7EFFB01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE16FAB23D2B54D558DF5C3B0C3DD55 /* BuchaSwift-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -644,17 +672,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BuchaSwift-iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = BuchaSwift;
 				PRODUCT_NAME = BuchaSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -662,73 +690,7 @@
 			};
 			name = Release;
 		};
-		CBA3CAF2BEFFE27640FF0950CB919D77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20DD0A79C4A7D88F2792B309F3CF4AAD /* Pods-BuchaSwift_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BuchaSwift_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CC789AF1BC7D5E7DC90BE9548EC48DE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 939296B76575A5175E3C53F5A5AA1F15 /* BuchaSwift-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BuchaSwift-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS.modulemap";
-				PRODUCT_NAME = BuchaSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D62F7D84011FDB5A1DC707A2B3775E1A /* Debug */ = {
+		87E5F07CF4A36C1A3260830D12F31DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -738,10 +700,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -749,6 +713,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -757,7 +722,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -777,22 +741,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E41E84B10A288152A5BFA78B2CCFAE67 /* Release */ = {
+		9C96096039091F5DE0C118A04FDFC2F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9164F823CE5F92D58E76696B530F6080 /* Pods-BuchaSwift_Mac_Example.release.xcconfig */;
+			baseConfigurationReference = 3FE16FAB23D2B54D558DF5C3B0C3DD55 /* BuchaSwift-iOS.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BuchaSwift-iOS/BuchaSwift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = BuchaSwift;
+				PRODUCT_NAME = BuchaSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0D6984D1DD716FA74514CAEFC825CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4708B4356CF1801B3282C1C0FBB611AC /* Pods-BuchaSwift_Mac_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -804,7 +804,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Mac_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
@@ -814,65 +814,125 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BuchaSwift_Mac_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4BB14FC9930EEF9FE62145169E7236C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CA4DB19087BEEF607303CF18A8ED131 /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Mac_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B7E0886E1B901F9D6ED3D9010DACB05 /* Debug */,
-				E41E84B10A288152A5BFA78B2CCFAE67 /* Release */,
+				87E5F07CF4A36C1A3260830D12F31DF9 /* Debug */,
+				F4BB14FC9930EEF9FE62145169E7236C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		894C38FDEAD5AD440EDBED73AC2A2B77 /* Build configuration list for PBXNativeTarget "BuchaSwift-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D62F7D84011FDB5A1DC707A2B3775E1A /* Debug */,
-				334B7465121895DA41F24E7234388C47 /* Release */,
+				1D394C6244915D411C00AD6A2DBC2FD3 /* Debug */,
+				4A6F0931C7AC2819D44021FA1F705BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		526A8A7C446720856BDB28A10ACAAF96 /* Build configuration list for PBXNativeTarget "BuchaSwift-macOS" */ = {
+		8F3F5B87EA46336E8927D86F3FD23E7F /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Mac_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43D16E3578F86D25BEA4CAB0F71047FF /* Debug */,
-				6D7A36FECF06B38E5AF0E2C7C994276E /* Release */,
+				188A2FFF94A3111092691878253F902D /* Debug */,
+				B0D6984D1DD716FA74514CAEFC825CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF811775B648E5420AE9DBCB59097B0 /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Example" */ = {
+		9447FAA8C0FA48F4D53F78F221F7DB8E /* Build configuration list for PBXNativeTarget "BuchaSwift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				920199AB08082F271C5186F5C199D2D4 /* Debug */,
-				CBA3CAF2BEFFE27640FF0950CB919D77 /* Release */,
+				9C96096039091F5DE0C118A04FDFC2F9 /* Debug */,
+				86037157943257224F7B74EF7EFFB01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91BE2A4616AA40BC21F5ADB18C97286D /* Build configuration list for PBXNativeTarget "BuchaSwift-iOS" */ = {
+		DE53CD45DFD0B146448D07E85F4CFB8C /* Build configuration list for PBXNativeTarget "Pods-BuchaSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC789AF1BC7D5E7DC90BE9548EC48DE5 /* Debug */,
-				9FA7E32E043608530C93869C5A2ECD2A /* Release */,
+				2A66114CDA18C11D03A6E26E33F3A557 /* Debug */,
+				74066F5BFC98B07AB03E3417069B3F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

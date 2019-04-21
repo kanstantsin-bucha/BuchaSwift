@@ -174,7 +174,6 @@
 				121D9434200514B000970D10 /* Frameworks */,
 				121D9435200514B000970D10 /* Resources */,
 				E433C1AA7C1A7115882152BF /* [CP] Embed Pods Frameworks */,
-				E3AD872212978A520D501B53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +193,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				E716C947BE4ECC89ACEF2ECA /* [CP] Embed Pods Frameworks */,
-				41D2D2E4FFF59941D3F5C065 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +220,7 @@
 					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HUUYEKWPEW;
 						LastSwiftMigration = 0920;
 					};
 				};
@@ -231,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -268,21 +268,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41D2D2E4FFF59941D3F5C065 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A8412F27887D83DEF620A98B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,28 +286,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E3AD872212978A520D501B53 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E433C1AA7C1A7115882152BF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BuchaSwift-macOS/BuchaSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -331,7 +301,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuchaSwift_Mac_Example/Pods-BuchaSwift_Mac_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E716C947BE4ECC89ACEF2ECA /* [CP] Embed Pods Frameworks */ = {
@@ -340,7 +310,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BuchaSwift-iOS/BuchaSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -349,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuchaSwift_Example/Pods-BuchaSwift_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F517B3C2DDC7470B8E7E9746 /* [CP] Check Pods Manifest.lock */ = {
@@ -452,7 +422,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -483,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.BuchaSwift-Mac-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -593,13 +563,14 @@
 			baseConfigurationReference = 7C11FCA07AA7BC5E6F139BFB /* Pods-BuchaSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUUYEKWPEW;
 				INFOPLIST_FILE = BuchaSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -608,13 +579,14 @@
 			baseConfigurationReference = D143AFFC0B13A75AD7FFAD3D /* Pods-BuchaSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUUYEKWPEW;
 				INFOPLIST_FILE = BuchaSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
